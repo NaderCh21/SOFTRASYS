@@ -1,0 +1,83 @@
+/* src/components/Header.css */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .menus {
+    display: flex;
+    align-items: center;
+  }
+  
+  .small-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+  
+  .c1, .c2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .c1 a, .c2 a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .c1 a:last-child, .c2 a:last-child {
+    margin-right: 0;
+  }
+  
+  .icohome, .icocareers, .icocontact {
+    margin-right: 5px;
+  }
+  
+  .trheader {
+    font-size: 14px;
+  }
+  
+  .lang a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .lang a.selected_lang {
+    font-weight: bold;
+  }
+  
+  #main-menu {
+    margin-left: 20px;
+  }
+  
+  .dropdown {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown li {
+    margin-right: 20px;
+  }
+  
+  .dropdown li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .dropdown li a:hover {
+    color: #007BFF;
+  }
+  
